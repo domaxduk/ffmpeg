@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
     s.platform         = :ios, '12.1'
     s.static_framework = true
   
-    # Use the HTTP source to fetch the zipped package directly.
+    # Use the HTTP source to fetch the zipped package directly
     s.source           = { :http => 'https://github.com/NooruddinLakhani/ffmpeg-kit-ios-full-gpl/archive/refs/tags/latest.zip' }
   
     # Because the frameworks are inside the extracted archive under:
